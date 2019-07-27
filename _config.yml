@@ -14,36 +14,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MkDocs Documentation Jekyll
-email: your-email@domain.com
-author: Dinosaur Avocado
+title: Research Software Services
+email: srcc-support@stanford.edu
+author: Stanford University Research Computing
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Research Software Engineering Services (RSE Services) offers support for
+  code and software maintenance, testing, documentation, and general development
+  to support sustainable, reproducible research.
 
 # DO NOT CHANGE THE LINE OF THIS FILE without editing .circleci/circle_urls.sh
-baseurl: "/mkdocs-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/rse-services" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
 url: "" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/mkdocs-jekyll"
-github_user: "vsoch"
-github_repo: "mkdocs-jekyll"
+repo: "https://github.com/vsoch/rse-services"
+github_user: "stanford-rc"
+github_repo: "rse-services"
 
 # Optional
-twitter: vsoch
-linkedin: vsochat
-dockerhub: vanessa
+twitter: StanfordCompute
+#linkedin: vsochat
+dockerhub: srcc
 # google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
 color: "#8c1515" # primary color for header, buttons
-
+#color: "#6f004e"
 # Build settings
 markdown: kramdown
 
@@ -54,6 +54,7 @@ tag_color: danger # danger, success, warning, primary, info, secondary
 
 accentColor: red # purple, green, etc.
 themeColor: red # purple, green, blue, orange, purple, grey
+
 fixedNav: 'true' # true or false
 
 permalink: /:year/:title/

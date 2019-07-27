@@ -1,17 +1,31 @@
 - title: "Getting Started"
   url: "docs/getting-started"
   children:
-    - title: Features
-      url: "docs/getting-started#getting-started"
-    - title: Development
-      url: "docs/getting-started#development"
-    - title: Customization
-      url: "docs/getting-started#customization"
-- title: "Extras"
-  url: "docs/extras"
+    - title: Overview
+      url: "docs/getting-started"
+- title: "Services"
+  url: "docs/services"
   children:
-    - title: Quizzes
-      url: "docs/extras/example-quiz"
+    - title: Overview
+      url: "docs/services"
+    - title: Software
+      url: "docs/services/software"
+    - title: Maintenance
+      url: "docs/services/maintenance"
+    - title: High Performance Computing
+      url: "docs/services/hpc"
+- title: "Domain Services"
+  url: "docs/services"
+  children:
+    - title: Stanford Earth
+      url: "docs/services/srcc-earth"
+- title: "Guides"
+  url: "docs/guides"
+  children:
+    - title: Overview
+      url: "docs/guides"
+    - title: Best Practices
+      url: "docs/guides/best-practices"
 - title: "About"
   url: "about"
 - title: "News"
