@@ -3,11 +3,9 @@
   children:
     - title: Overview
       url: "docs/getting-started"
-- title: "Services"
+- title: "General Services"
   url: "docs/services"
   children:
-    - title: Overview
-      url: "docs/services"
     - title: Software
       url: "docs/services/software"
     - title: Maintenance
