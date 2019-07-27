@@ -16,4 +16,4 @@ a hitch.
 
 Here are some useful external resources.
 
-Would you like to see another guide? Please [let us know])({{ site.repo }}/issues/new).
+Would you like to see another guide? Please [let us know]({{ site.repo }}/issues/new).

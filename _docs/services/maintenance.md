@@ -16,4 +16,4 @@ repositories, in the case of open source software, we will also add it to a grow
 maintained software. We are proud of the software and algorithms produced
 by our University, and want to share that.
 
-Would you like help with maintenance? Please [let us know])({{ site.repo }}/issues/new).
+Would you like help with maintenance? Please [let us know]({{ site.repo }}/issues/new).

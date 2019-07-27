@@ -18,4 +18,4 @@ and later maintenance of a final product.
  - [SRCC-EARTH](srcc-earth)
 
 Would you like to see another category of services? Please
-[let us know])({{ site.repo }}/issues/new).
+[let us know]({{ site.repo }}/issues/new).

@@ -17,4 +17,4 @@ or another local resource, RSE Services can help to:
 Additionally, we can provide details about the execution of the jobs that
 you can include in a methods section or similar.
 
-Please [let us know])({{ site.repo }}/issues/new) how we can help.
+Please [let us know]({{ site.repo }}/issues/new) how we can help.

@@ -41,4 +41,4 @@ Along with jekyll templates that we've developed for you to use:
 We can take on the task to create your documentation, or develop a custom template
 for you. 
 
-If you'd like to ask a question or request help, please [open an issue])({{ site.repo }}/issues/new).
+If you'd like to ask a question or request help, please [open an issue]({{ site.repo }}/issues/new).
