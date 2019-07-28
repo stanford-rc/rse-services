@@ -40,8 +40,8 @@ dockerhub: srcc
 # google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
-# logo: "assets/img/logo/SRCC-square-red.png"
-logo_pixels: 34
+logo: "assets/img/logo/logo.png"
+logo_width: 70
 color: "#8c1515" # primary color for header, buttons
 #color: "#6f004e"
 # Build settings
