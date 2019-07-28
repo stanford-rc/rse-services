@@ -49,7 +49,7 @@ available!
 
 {% include alert.html title="How do I get started?" type="tip" content="By far, the best way to get started is to read about the basics, and then create an account and jump in! if you can't find the answer to a question, just ask." %}
 
-<a href="{{ site.repo }}/issues/new" target="_blank"><button class="btn btn-primary">Ask for Support</button></a>
+<a href="{{ site.repo }}/issues/new" target="_blank"><button class="btn btn-success">Ask for Support</button></a>
 
 ## Testing and Code Coverage
 
@@ -101,7 +101,7 @@ services are:
 
 {% include alert.html title="How do I get started?" type="question" content="It's recommended to look at other projects with similar code that are set up with the service that you chose, and modify to your need. If you need some help and want the setup done for you, we can help." %}
 
-<a href="{{ site.repo }}/issues/new" target="_blank"><button class="btn btn-primary">Ask for Support</button></a>
+<a href="{{ site.repo }}/issues/new" target="_blank"><button class="btn btn-success">Ask for Support</button></a>
 
 ## Code Style
 
