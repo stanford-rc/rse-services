@@ -29,7 +29,7 @@ baseurl: "/rse-services" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Social (First three Required)
-repo: "https://github.com/vsoch/rse-services"
+repo: "https://github.com/stanford-rc/rse-services"
 github_user: "stanford-rc"
 github_repo: "rse-services"
 
