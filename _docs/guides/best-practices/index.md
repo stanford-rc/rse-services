@@ -47,8 +47,9 @@ available!
  - [Best Practices](https://github.com/trein/dev-best-practices/wiki/Git-Commit-Best-Practices) exist for writing commit messages, which are little messages that you add when you want to save the current state of your repository.
  - [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/) gives a nice overview of all the terms and how to manage a repository.
 
-By far, the best way to get started is to read about the basics, and then create an account and jump in! if you
-can't find the answer to a question, [just ask]({{ site.repo }}/issues/new).
+{% include alert.html title="How do I get started?" type="tip" content="By far, the best way to get started is to read about the basics, and then create an account and jump in! if you can't find the answer to a question, just ask." %}
+
+<a href="{{ site.repo }}/issues/new" target="_blank"><button class="btn btn-primary">Ask for Support</button></a>
 
 ## Testing and Code Coverage
 
@@ -98,9 +99,9 @@ services are:
  - [Appveyor (Windows)](https://www.appveyor.com/)
 
 
-How do you get started? It's recommended to look at other projects with similar
-code that are set up with the service that you chose, and modify to your need.
-If you need some help and want the setup done for you, [we can help]({{ site.repo }}/issues/new).
+{% include alert.html title="How do I get started?" type="question" content="It's recommended to look at other projects with similar code that are set up with the service that you chose, and modify to your need. If you need some help and want the setup done for you, we can help." %}
+
+<a href="{{ site.repo }}/issues/new" target="_blank"><button class="btn btn-primary">Ask for Support</button></a>
 
 ## Code Style
 
@@ -164,9 +165,8 @@ the following:
  - How do I compile/build/test/install?
  - How do I get started?
 
-For the last point, it's good to provide the user with a "Getting Started" link
-directly after they have installed the software. It should serve as a toy
-example of using your software, and give them a base to grow.
+
+{% include alert.html title="Make it easy to get started" type="tip" content="For the last point, it's good to provide the user with a Getting Started link directly after they have installed the software. It should serve as a toy example of using your software, and give them a base to grow." %}
 
 ### Code Documentation
 
