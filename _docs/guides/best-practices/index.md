@@ -10,10 +10,11 @@ If you are new to programming, or writing scripts to run a scientific analysis,
 it's essential to start using version control. 
 
 {% include alert.html title="What is version control?" type="question" content="Version control is like having
-a well organized, Mary Poppins-esche recipe box that can summon up any previous version of your code on demand, and multiple people can interact with contents without bumping heads. More formally, it means tracking changes in your source code over time. You can work on multiple features at once, and multiple people can collaborate on the same code base without bumping heads. If you want to do reproducible research, this is the first step." %}
+a well organized, Mary Poppins-esche recipe box that can summon up any previous version of your code on demand, and multiple people can interact with contents without bumping heads. More formally, it means tracking changes in your source code over time. You can work on multiple features at once, and multiple people can collaborate on the same code base without issue." %}
 
-Reproducible science calls for keeping a history of your work, and version control brings that to code, 
-or any kind of text file that can be stored in a repository.
+If you want to do reproducible research, this is the first step, as
+reproducible science calls for keeping a history of your work. Any kind of text file that
+can be stored in a repository is fair game.
 
 {% include alert.html title="What is a repository?" type="question" content="A repository, or sometimes referred to as a repo, comes down to a folder of files and subfolders that has a hidden folder, (usually .git) that stores history, branches, and other metadata about the project." %}
 
