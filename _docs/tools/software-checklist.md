@@ -39,7 +39,7 @@ for your repository to generate your badge.
 
 {% for section in site.data.software-checklist %}<h2 id="{{ section.title | slufify }}">{{ section.title }}</h2>
 <ul class="task-list">{% for item in section.items %}
-  <li class="task-list-item" {% if item.comment %}title={{ item.comment }}{% endif %}><input id="{{ item.id }}" type="checkbox" class="task-list-item-checkbox" v-on:change="countPoints($event)"/><strong>{{ item.title }}:</strong> {{ item.description }} {% if item.url %}<a href="{{ item.url }}" target="_blank">[ref]</a>{% endif %}</li>{% endfor %}
+  <li class="task-list-item" {% if item.comment %}title="{{ item.comment }}"{% endif %}><input id="{{ item.id }}" type="checkbox" class="task-list-item-checkbox" v-on:change="countPoints($event)"/><strong>{{ item.title }}:</strong> {{ item.description }} {% if item.url %}<a href="{{ item.url }}" target="_blank">[ref]</a>{% endif %}</li>{% endfor %}
 </ul>{% endfor %}
 </div>
 
@@ -58,8 +58,9 @@ new Vue({
              "#BFB540","#BFBB40","#AEBF40","#9FBF40","#80BF40","#59BF40"]
   },
   // The view will trigger these methods on click
+
   methods: {
-    // Count points as they change
+
     countPoints: function() {
       this.points = document.querySelectorAll('input.task-list-item-checkbox[type="checkbox"]:checked').length;
       this.score = (100 * (this.points / document.querySelectorAll('input.task-list-item-checkbox[type="checkbox"]').length)).toFixed(2);
