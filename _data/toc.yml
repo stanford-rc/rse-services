@@ -16,6 +16,7 @@
       url: "docs/services/hpc"
 - title: "Tools"
   url: "docs/tools"
+  children:
     - title: Overview
       url: "docs/tools"
     - title: Software Checklist
