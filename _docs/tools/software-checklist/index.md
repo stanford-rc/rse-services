@@ -82,7 +82,7 @@ new Vue({
 
       // Ensure repository is entered
       if ((this.title == "username/reponame") || (this.title == "")) {
-      $(".markdown").text("Don't forget to enter your repository name in the box above.");
+      $(".markdown").text("Don't forget to enter your repository name in the box at the bottom of the page.");
       $("#reponame").css("background-color", "tomato");
       $("#reponame").css("color", "white");
       $(".markdown").show();
@@ -96,9 +96,9 @@ new Vue({
       ids = ids.replace(/(^,)|(,$)/g, "")
 
       // Prepare badge images
-      var badgeColor = this.colors[this.points - 1].replace("#", "")
+      var badgeColor = this.colors[this.points - 1]
       var badgeScore = Math.round(this.score) + "%25"
-      var badgeUrl = "https://img.shields.io/badge/software%20checklist-" + badgeScore + "-" + badgeColor
+      var badgeUrl = "https://img.shields.io/badge/software%20checklist-" + badgeScore + "-" + badgeColor.replace("#", "");
 
       // Prepare badge link (summary page with badge and ids
       var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
