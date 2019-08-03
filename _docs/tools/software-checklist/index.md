@@ -96,10 +96,10 @@ new Vue({
       // Prepare badge image (dynamically generated svg)
       var badgeColor = this.colors[this.points - 1]
       var badgeScore = Math.round(this.score) + "%25"
-      var badgeUrl = "{{ site.url }}{{ site.baseurl }}/docs/tools/software-checklist/badges/badge.svg?label=" + badgeScore + "&color=" + badgeColor
+      var badgeUrl = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badges/badge.svg?label=" + badgeScore + "&color=" + badgeColor
 
       // Prepare badge link (summary page with badge and ids
-      var badgeLink = "{{ site.url }}{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
+      var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
 
       var result = "[![" + badgeUrl + "](" + badgeUrl + ")](" + badgeLink + ")"
       $(".markdown").text(result);
