@@ -16,13 +16,9 @@ svg {
 
 <div id="app">
 
-The following checklist is to ensure reproducible software. Enter the name of your respository,
-check the points that apply, and then <span style="color:darkred">click the generate button or on the badge</span>.
-<div class="form-group">
-    <label>Your Repository or Software Name:</label>
-    <input class="form-control" style="background-color:#F7F7F7"
-       type="text" id="reponame" v-model="title">
-</div>
+The following checklist is to ensure reproducible software. Check the points that apply, enter the name of your respository,
+and then <span style="color:darkred">click the generate button</span> to
+generate markdown to include in your repository.
 
 <br>
 <blockquote class="markdown" style="display:none">
@@ -44,6 +40,13 @@ check the points that apply, and then <span style="color:darkred">click the gene
 </ul>{% endfor %}
 
 <button v-on:click="getCode()" class="btn btn-warning" style="float:right">Generate</button>
+
+<br>
+<div class="form-group">
+    <label>Your Repository or Software Name:</label>
+    <input class="form-control" style="background-color:#F7F7F7"
+       type="text" id="reponame" v-model="title">
+</div>
 
 <blockquote class="markdown" style="display:none">
 </blockquote>
@@ -93,10 +96,10 @@ new Vue({
       })
       ids = ids.replace(/(^,)|(,$)/g, "")
 
-      // Prepare badge image (dynamically generated svg)
-      var badgeColor = this.colors[this.points - 1]
+      // Prepare badge images
+      var badgeColor = this.colors[this.points - 1].replace("#", "")
       var badgeScore = Math.round(this.score) + "%25"
-      var badgeUrl = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badges/badge.svg?label=" + badgeScore + "&color=" + badgeColor
+      var badgeUrl = "https://img.shields.io/badge/software%20checklist-" + badgeScore + "-" + badgeColor
 
       // Prepare badge link (summary page with badge and ids
       var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
