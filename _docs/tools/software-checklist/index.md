@@ -1,5 +1,6 @@
 ---
 title: Software Checklist
+disable_search: true
 tags: 
  - badge
  - software
@@ -16,15 +17,15 @@ svg {
 <div id="app">
 
 The following checklist is to ensure reproducible software. Enter the name of your respository,
-check the points that apply, and then <span style="color:darkred">click on the badge</span> to generate markdown.
+check the points that apply, and then <span style="color:darkred">click the generate button or on the badge</span>.
 <div class="form-group">
     <label>Your Repository or Software Name:</label>
     <input class="form-control" style="background-color:#F7F7F7"
-       type="text" id="reponame" v-model="title" autocomplete="off">
+       type="text" id="reponame" v-model="title">
 </div>
 
 <br>
-<blockquote id="markdown" style="display:none">
+<blockquote class="markdown" style="display:none">
 </blockquote>
 <br>
 
@@ -41,6 +42,12 @@ check the points that apply, and then <span style="color:darkred">click on the b
 <ul class="task-list">{% for item in section.items %}
   <li class="task-list-item" {% if item.comment %}title="{{ item.comment }}"{% endif %}><input id="{{ item.id }}" type="checkbox" class="task-list-item-checkbox" v-on:change="countPoints($event)"/><strong>{{ item.title }}:</strong> {{ item.description }} {% if item.url %}<a href="{{ item.url }}" target="_blank">[ref]</a>{% endif %}</li>{% endfor %}
 </ul>{% endfor %}
+
+<button v-on:click="getCode()" class="btn btn-warning" style="float:right">Generate</button>
+
+<blockquote class="markdown" style="display:none">
+</blockquote>
+
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -66,17 +73,17 @@ new Vue({
 
       // Don't continue if no points checked!
       if (checked.length == 0) {
-      $("#markdown").text("Please select at least one critera to generate a badge.");
-      $("#markdown").show();
+      $(".markdown").text("Please select at least one critera to generate a badge.");
+      $(".markdown").show();
        return
       }
 
       // Ensure repository is entered
       if ((this.title == "username/reponame") || (this.title == "")) {
-      $("#markdown").text("Don't forget to enter your repository name in the box above.");
+      $(".markdown").text("Don't forget to enter your repository name in the box above.");
       $("#reponame").css("background-color", "tomato");
       $("#reponame").css("color", "white");
-      $("#markdown").show();
+      $(".markdown").show();
        return
       }
 
@@ -95,8 +102,8 @@ new Vue({
       var badgeLink = "{{ site.url }}{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
 
       var result = "[![" + badgeUrl + "](" + badgeUrl + ")](" + badgeLink + ")"
-      $("#markdown").text(result);
-      $("#markdown").show();
+      $(".markdown").text(result);
+      $(".markdown").show();
 
     },
 

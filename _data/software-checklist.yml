@@ -45,7 +45,7 @@ criteria:
         id: d7
         description: A user can easily jump from any documentation page to ask for help, or contribute changes
         url: https://vsoch.github.io/2018/interactive-posts/
-  - title: Atifacts
+  - title: Artifacts
     items:
       - title: Containers
         id: a1
