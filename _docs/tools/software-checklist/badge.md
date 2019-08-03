@@ -1,5 +1,6 @@
 ---
-title: Software Checklist
+title: Software Checklist Badge
+disable_editable: true
 tags: 
  - badge
  - software
@@ -9,25 +10,25 @@ tags:
 svg {
   cursor: pointer
 }
+.more  {
+  display: none !important;
+}
 </style>
 
-# Software Checklist
+# Software Checklist Badge
 
-The following checklist is to ensure reproducible software. Check the points that apply
-for your repository to generate your badge, and click to download when you are ready.
+<h2 id='title'></h2>
+
+How is this repository doing for reproducible software? View the points below,
+and [generate a badge](index) for your own repository. 
 
 <div id="app">
-
-<button class="btn btn-success" style="max-width:300px">Score: 
-    <input class="form-control"
-       placeholder="0"  style="background-color:transparent; width:50px; margin-left:5px; color:white; font-size:20px"
-       type="text" v-model="score"><span>%</span></button>
 
 <span style='float:right'>
 {% include badges/software-checklist.svg extra='v-on:click="saveSvg()"'%}
 </span>
 
-{% for section in site.data.software-checklist.criteria %}<h2 id="{{ section.title | slufify }}">{{ section.title }}</h2>
+{% for section in site.data.software-checklist.criteria %}<h2 id="{{ section.title | slugify }}">{{ section.title }}</h2>
 <ul class="task-list">{% for item in section.items %}
   <li class="task-list-item" {% if item.comment %}title="{{ item.comment }}"{% endif %}><input id="{{ item.id }}" type="checkbox" class="task-list-item-checkbox" v-on:change="countPoints($event)"/><strong>{{ item.title }}:</strong> {{ item.description }} {% if item.url %}<a href="{{ item.url }}" target="_blank">[ref]</a>{% endif %}</li>{% endfor %}
 </ul>{% endfor %}
@@ -41,11 +42,7 @@ new Vue({
     // Current user score
     score: 0,
     points: 0,
-
-    // Must be same length as number of points
-    colors: [{% for color in site.data.software-checklist.colors %}"{{ color }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
   },
-  // The view will trigger these methods on click
 
   methods: {
 
@@ -53,6 +50,7 @@ new Vue({
 
       // Get all of the unique ids
       var checked = document.querySelectorAll('input.task-list-item-checkbox[type="checkbox"]:checked')
+
       var ids = ""
       $.each(checked, function(e, i){
        ids = ids + $(i).attr('id') + ",";
@@ -65,7 +63,7 @@ new Vue({
       var badgeUrl = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badges/badge.svg?label= + " + badgeScore + "&color=" + badgeColor
 
       // Prepare badge link (summary page with badge and ids
-      var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist-badge?label= + " + badgeScore + "&color=" + badgeColor + "&ids=" + ids
+      var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badge?label= + " + badgeScore + "&color=" + badgeColor + "&ids=" + ids
 
       var result = "[![" + badgeUrl + "](" + badgeUrl + ")](" + badgeLink + ")"
 
@@ -79,4 +77,29 @@ new Vue({
     }
   }
 });
+
+(function() {
+
+  function getUrlParams() {
+    url = location.href;
+    qs = url.split('+').join(' ');
+    var params = {},
+        tokens,
+        re = /[?&]?([^=]+)=([^&]*)/g;
+    while (tokens = re.exec(qs)) {
+        params[decodeURIComponent(tokens[1])] = decodeURIComponent(tokens[2]);
+    }
+    return params;
+  }
+
+  params = getUrlParams()
+  var ids = params['ids'].split(",")
+  var title = params['title'] || ""
+  for (i = 0; i < ids.length; i++) {
+    document.getElementById(ids[i]).checked = true;
+  }
+  document.getElementById('title').innerHTML = title;
+  
+})();
+
 </script>

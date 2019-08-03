@@ -13,10 +13,20 @@ svg {
 
 # Software Checklist
 
-The following checklist is to ensure reproducible software. Check the points that apply
-for your repository to generate your badge, and click to download when you are ready.
-
 <div id="app">
+
+The following checklist is to ensure reproducible software. Enter the name of your respository,
+check the points that apply, and then <span style="color:darkred">click on the badge</span> to generate markdown.
+<div class="form-group">
+    <label>Your Repository or Software Name:</label>
+    <input class="form-control" style="background-color:#F7F7F7"
+       type="text" id="reponame" v-model="title" autocomplete="off">
+</div>
+
+<br>
+<blockquote id="markdown" style="display:none">
+</blockquote>
+<br>
 
 <button class="btn btn-success" style="max-width:300px">Score: 
     <input class="form-control"
@@ -24,10 +34,10 @@ for your repository to generate your badge, and click to download when you are r
        type="text" v-model="score"><span>%</span></button>
 
 <span style='float:right'>
-{% include badges/software-checklist.svg extra='v-on:click="saveSvg()"'%}
+{% include badges/software-checklist.svg extra='v-on:click="getCode()" title="Click to show markdown"'%}
 </span>
 
-{% for section in site.data.software-checklist.criteria %}<h2 id="{{ section.title | slufify }}">{{ section.title }}</h2>
+{% for section in site.data.software-checklist.criteria %}<h2 id="{{ section.title | slugify }}">{{ section.title }}</h2>
 <ul class="task-list">{% for item in section.items %}
   <li class="task-list-item" {% if item.comment %}title="{{ item.comment }}"{% endif %}><input id="{{ item.id }}" type="checkbox" class="task-list-item-checkbox" v-on:change="countPoints($event)"/><strong>{{ item.title }}:</strong> {{ item.description }} {% if item.url %}<a href="{{ item.url }}" target="_blank">[ref]</a>{% endif %}</li>{% endfor %}
 </ul>{% endfor %}
@@ -41,6 +51,7 @@ new Vue({
     // Current user score
     score: 0,
     points: 0,
+    title: "username/reponame",
 
     // Must be same length as number of points
     colors: [{% for color in site.data.software-checklist.colors %}"{{ color }}"{% if forloop.last %}{% else %},{% endif %}{% endfor %}]
@@ -49,25 +60,43 @@ new Vue({
 
   methods: {
 
-    saveSvg: function() {
-
+    getCode: function() {
       // Get all of the unique ids
       var checked = document.querySelectorAll('input.task-list-item-checkbox[type="checkbox"]:checked')
+
+      // Don't continue if no points checked!
+      if (checked.length == 0) {
+      $("#markdown").text("Please select at least one critera to generate a badge.");
+      $("#markdown").show();
+       return
+      }
+
+      // Ensure repository is entered
+      if ((this.title == "username/reponame") || (this.title == "")) {
+      $("#markdown").text("Don't forget to enter your repository name in the box above.");
+      $("#reponame").css("background-color", "tomato");
+      $("#reponame").css("color", "white");
+      $("#markdown").show();
+       return
+      }
+
       var ids = ""
-      $.each(checked, function(e, i){
-       ids = ids + $(i).attr('id') + ",";
+      $.each(checked, function(i, e){
+       ids = ids + $(e).attr('id') + ",";
       })
-      ids = ids.strip(',');
+      ids = ids.replace(/(^,)|(,$)/g, "")
 
       // Prepare badge image (dynamically generated svg)
       var badgeColor = this.colors[this.points - 1]
-      var badgeScore = Math.round(this.score) + "%"
-      var badgeUrl = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badges/badge.svg?label= + " + badgeScore + "&color=" + badgeColor
+      var badgeScore = Math.round(this.score) + "%25"
+      var badgeUrl = "{{ site.url }}{{ site.baseurl }}/docs/tools/software-checklist/badges/badge.svg?label=" + badgeScore + "&color=" + badgeColor
 
       // Prepare badge link (summary page with badge and ids
-      var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist-badge?label= + " + badgeScore + "&color=" + badgeColor + "&ids=" + ids
+      var badgeLink = "{{ site.url }}{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
 
       var result = "[![" + badgeUrl + "](" + badgeUrl + ")](" + badgeLink + ")"
+      $("#markdown").text(result);
+      $("#markdown").show();
 
     },
 

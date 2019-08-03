@@ -1,3 +1,4 @@
+{% if page.disable_editable %}{% else %}
 <!-- this will parse through the header fields and add a button to open
      an issue / ask a question on Github. The editable field should be in
      the post frontend matter, and refer to the label to open the issue for -->
@@ -56,4 +57,4 @@ $(document).ready(function() {
 
     })
 });
-</script>
+</script>{% endif %}
