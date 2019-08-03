@@ -17,8 +17,7 @@ svg {
 <div id="app">
 
 The following checklist is to ensure reproducible software. Check the points that apply, enter the name of your respository,
-and then <span style="color:darkred">click the generate button</span> to
-generate markdown to include in your repository.
+and then <span style="color:darkred">click the generate button</span>.
 
 <br>
 <blockquote class="markdown" style="display:none">
