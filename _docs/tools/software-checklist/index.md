@@ -20,7 +20,7 @@ The following checklist is to ensure reproducible software. Check the points tha
 and then <span style="color:darkred">click the generate button</span>.
 
 <br>
-<blockquote class="markdown" style="display:none">
+<blockquote class="markdown" style="display:none; overflow:hidden">
 </blockquote>
 <br>
 
@@ -47,7 +47,7 @@ and then <span style="color:darkred">click the generate button</span>.
        type="text" id="reponame" v-model="title">
 </div>
 
-<blockquote class="markdown" style="display:none">
+<blockquote class="markdown" style="display:none; overflow:hidden">
 </blockquote>
 
 </div>
