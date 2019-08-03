@@ -1207,9 +1207,6 @@ excluded_in_search: true
             }
             return /\bneedsclick\b/.test(e.className)
         }, i.prototype.needsFocus = function(e) {
-            if (e.id == "reponame") {
-               return !1
-            };
             switch (e.nodeName.toLowerCase()) {
                 case "textarea":
                     return !0;
