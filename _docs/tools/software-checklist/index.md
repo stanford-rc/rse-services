@@ -101,7 +101,7 @@ new Vue({
       var badgeUrl = "https://img.shields.io/badge/software%20checklist-" + badgeScore + "-" + badgeColor.replace("#", "");
 
       // Prepare badge link (summary page with badge and ids
-      var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids
+      var badgeLink = "{{ site.url }}/{{ site.baseurl }}/docs/tools/software-checklist/badge?label=" + badgeScore + "&color=" + badgeColor + "&ids=" + ids + "&title=" + this.title
 
       var result = "[![" + badgeUrl + "](" + badgeUrl + ")](" + badgeLink + ")"
       $(".markdown").text(result);
