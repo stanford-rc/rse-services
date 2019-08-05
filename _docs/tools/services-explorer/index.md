@@ -196,7 +196,8 @@ input:focus {
 # Services Explorer
 
 What kind of support are you looking for? Drag services from the left to the right
-to select them, and then send us a note at the bottom.
+to select them, and then send us a note at the bottom. You can add a custom item
+using the box below.
 
 <label for="addItem">Add an Item:
 <input class="add-item" id="addItem" maxlength="16" required="required" type="text" /></label>
