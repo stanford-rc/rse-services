@@ -17,6 +17,7 @@ work might include:
  - Working on existing or new code bases
  - Python 2.x to 3.x conversion
  - Plugins for existing frameworks (Open OnDemand, Discourse, etc)
+ - Dockerized web applications with Django, Flask, or similar framework
  - C++ and Fortran Python Extensions
 
 ## Packages
@@ -62,7 +63,7 @@ Examples of documentation work might include:
  - Writing documentation for install, usage, and development of existing software
  - Generating new tutorials, notebooks, or similar content for teaching
  - Development of custom GitHub pages templates for software
- - Interactive portals for other use
+ - Interactive portals for other use using JavaScript, Vue.js, or similar
 
 We can take on the task to create your documentation, or develop a custom template
 for you. 
