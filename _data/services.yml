@@ -1,0 +1,37 @@
+categories:
+  - title: Software
+    color: "#40A6BF"
+    items:
+      - title: Development
+        description: Development of a code base
+        verbose: If you are just starting with the development of a library, we can help! Whether it's Python, GoLang, R, Ruby, Bash, or another language that you are using, we can help you to create your first repository from scratch.
+      - title: Packages
+        description: Create a package in Python, R, or another language.
+        verbose: Do you have a script, or the start of a package, and you want some help? We can help to solidify the creation of packages so that others can easily test.
+      - title: Continuous Integration
+        description: Build, test, and deploy.
+        verbose: Testing and continuous integration is an essential part of software development, but it's often overlooked due to time constaints. We can help.
+      - title: Containers
+        description: e.g., Docker or Singularity
+        verbose: Containers such as [Docker](https://hub.docker.com/) and [Singularity](https://www.sylabs.io/guides/3.0/user-guide/) are becoming the new unit for reproducible science. If you have a code base that you would like containerized, we can quickly do it.
+      - title: Documentation
+        description: Write documentation or create custom templates
+        verbose: "Documentation is essential for the usability of your software, but it's hard!  Along with jekyll templates that we've developed for you to use<br> - [docsy-jekyll](https://vsoch.github.io/docsy-jekyll)<br> - [mkdocs-jekyll](https://vsoch.github.io/mkdocs-jekyll)"
+      - title: License
+        description: An appropriate plain-text LICENSE file is included, ideally OSI approved
+        url: https://opensource.org/licenses/alphabetical
+  - title: High Performance Computing
+    color: "#5BC8BD"
+    items:
+      - title: Scaling
+        description: Scale your an algorithm to run on HPC and/or cloud services
+        verbose: Scale your an algorithm to run on HPC and/or cloud services
+      - title: Job Management
+        description: Write submission scripts to optimally run your jobs
+        verbose: Write submission scripts to optimally run your jobs
+  - title: Maintenance
+    color: "#BF4068"
+    items:
+      - title: Maintainer
+        description: Act as maintainer for your repository
+        verbose: Once you've finished your software, provided it as open source on GitHub, written your paper, and you're ready to move on, you might be surprised if issues start showing up for you to address. To ensure the reproducibility and longevity of your work, it's essential to respond in a timely manner, and help the interested party to fix bugs, review pull requests, and other standard maintainer roles. If you're a busy person or you've moved on to other projects, this additional responsibility can be a burden, and so we will offer to do it for you.
