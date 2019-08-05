@@ -48,6 +48,11 @@ Upon completion, we celebrate! A project summary is provided to you by the RSE,
 and if it's desired, we share and promote your project with the greater Stanford
 community to attract interest.
 
+
+<a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/rse-services-blueprint.png">
+<img src="{{ site.url }}{{ site.baseurl }}/assets/img/rse-services-blueprint.png"></a>
+
+
 ## Services
 
 The following services are available to you!
