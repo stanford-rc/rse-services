@@ -11,7 +11,12 @@ of support that we offer directly related to software.
 
 If you are just starting with the development of a library, we can help! Whether
 it's Python, GoLang, R, Ruby, Bash, or another language that you are using, we
-can help you to create your first repository from scratch.
+can help you to create your first repository from scratch. Examples of software
+work might include:
+
+ - Working on existing or new code bases
+ - Python 2.x to 3.x conversion
+ - C++ and Fortran Python Extensions
 
 ## Packages
 
