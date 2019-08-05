@@ -3,6 +3,8 @@
   children:
     - title: Overview
       url: "docs/getting-started"
+    - title: Services
+      url: "docs/services"
     - title: Levels of Service
       url: "docs/service-levels"
 - title: "General Services"
