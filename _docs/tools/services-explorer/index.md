@@ -13,6 +13,7 @@ tags:
   padding-top: 0px;
   background-color: darkred;
   color: white;
+  cursor:pointer;
 }
 
 .group-wrap {
@@ -194,6 +195,9 @@ input:focus {
 
 # Services Explorer
 
+What kind of support are you looking for? Drag services from the left to the right
+to select them, and then send us a note at the bottom.
+
 <label for="addItem">Add an Item:
 <input class="add-item" id="addItem" maxlength="16" required="required" type="text" /></label>
 <button class="btn btn-secondary" id="add-button">+</button>
@@ -318,7 +322,7 @@ function printList(el, container, sortGroup) {
   });
 
   var groupString = groupText.join("");
-  var sendString = sendText.join("");
+  var sendString = sendText.join("\n");
   
   printBox.classList.add("animated", "fadeInUp");
   sortGroup.option("disabled", true);

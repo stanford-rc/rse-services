@@ -23,6 +23,8 @@
       url: "docs/tools"
     - title: Software Checklist
       url: "docs/tools/software-checklist/"
+    - title: Services Explorer
+      url: "docs/tools/services-explorer/"
 - title: "Domain Services"
   url: "docs/services"
   children:

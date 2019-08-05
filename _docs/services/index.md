@@ -5,7 +5,8 @@ title: Services
 # Services
 
 We can help you with anything ranging from code development, to documentation,
-and later maintenance of a final product.
+and later maintenance of a final product. Want to see a more interactive
+version of the below? You can also use our [services explorer]({{ site.url }}/{{ site.baseurl }}/docs/tools/services/explorer/).
 
 ## General
 
