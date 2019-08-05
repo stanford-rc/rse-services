@@ -42,16 +42,6 @@ by the grant.
 
 ## How do I know what I need?
 
-We recommend taking the following steps:
-
-#### Tell us your Needs
-[Tell Us]({{ site.repo }}/issues) your needs. We will arrange a time to chat to better determine what might work best for you.
-
-#### Statement of Work
-A Statement of Work will be provided to you that clearly outlines the goals, and tasks discussed.
-
-#### Agreement
-
-A Service Model will be agreed upon based on your needs and resources allowed.
-
-And then we'll get started!
+You should open up communication with our team, and have discussion that will
+allow us to better evaluate your needs. This can lead to a support plan, an 
+agreement, and then the work! Take a look at [how it works]({{ site.url }}/{{ site.baseurl }}/docs/getting-started#how-does-it-work).
