@@ -26,8 +26,4 @@ or school would like a research software engineer but aren't sure how we can hel
 
 {% include alert.html title="Contribute to the publication domain" content="For all of these examples, the research software engineer can help contribute to the domain of published work. For example, if a Python package or extension is developed, it can be published to encourage broader use across the community." %}
 
-More specific examples are included in the pages below.
-
- - [SRCC-EARTH](srcc-earth)
-
 Would you like to see another category of services? Please [let us know]({{ site.repo }}/issues/new).
