@@ -17,5 +17,6 @@ Along with providing support for the above, through this effort we also hope to 
 
 ## Support
 
-If you need help, please don't hesitate to [open an issue](https://www.github.com/{{ site.github_user }}/{{ site.github_repo }}).
+Do you want to ask a question, get feedback on a project, or otherwise contact us?
 
+<a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >Contact Us</button></a>

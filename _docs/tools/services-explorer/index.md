@@ -231,14 +231,13 @@ using the box below.
 
 <form action="https://formspree.io/vsochat@stanford.edu" method="POST">
   <label for="name">Your Name:
-  <input type="text" name="name"><br>
+  <input class=".form-input" type="text" name="name"><br>
   <label for="email">Your Email:
-  <input type="email" name="_replyto"><br>
+  <input class=".form-input" type="email" name="_replyto"><br>
   <label for="message">Message:
-  <input type="textarea" name="message"><br>
+  <textarea class=".form-input" type="textarea" name="message" rows="10"></textarea><br>
   <input id="interest-list" type="hidden" name="request"><br>
   <button class="btn btn-success" type="submit" style="cursor:pointer" value="Send">Send</button>
-</form>
 <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script>

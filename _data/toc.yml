@@ -25,11 +25,8 @@
       url: "docs/tools/software-checklist/"
     - title: Services Explorer
       url: "docs/tools/services-explorer/"
-#- title: "Domain Services"
-#  url: "docs/services"
-#  children:
-#    - title: Stanford Earth
-#      url: "docs/services/srcc-earth"
+    - title: "Request Services"
+      url: "request"
 - title: "Guides"
   url: "docs/guides"
   children:
@@ -39,5 +36,10 @@
       url: "docs/guides/best-practices"
 - title: "About"
   url: "about"
+  children:
+    - title: About RSE Services
+      url: about
+    - title: Contact Us
+      url: request
 - title: "News"
   url: "news"
