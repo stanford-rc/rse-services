@@ -19,11 +19,11 @@ a look at the [about]({{ site.baseurl }}/about) page, or watch a video instead.
 Your particular needs for software are likely to be different from others, 
 along with the resources available to you. To start, we recommend
 that you look over the kind of help that we can offer,
-and contact us at [{{ site.email }}](mailto:{{ site.email }}) with your
-specific needs. You can also use our [services explorer]({{ site.url }}{{ site.baseurl }}/docs/tools/services-explorer/)
+and contact us with your specific needs. You can also use our 
+[services explorer]({{ site.url }}{{ site.baseurl }}/docs/tools/services-explorer/)
 to easily send a message alongside the support that you are looking for.
 
-<a href="mailto:{{ site.email }}"><button class="btn btn-success">Contact Us</button></a>
+<a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >Contact Us</button></a>
 
 ### 2. Consult
 

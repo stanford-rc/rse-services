@@ -238,7 +238,7 @@ using the box below.
   <input type="textarea" name="message"><br>
   <input id="interest-list" type="hidden" name="request"><br>
   <button class="btn btn-success" type="submit" style="cursor:pointer" value="Send">Send</button>
-
+</form>
 <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 <script>

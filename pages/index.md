@@ -9,6 +9,8 @@ permalink: /
 This is the portal for research software engineering (RSE) services from Stanford
 Research Computing. 
 
+<a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >New Request</button></a>
+
 ## How can an RSE Help?
 
 Here you can find support for:
