@@ -9,6 +9,8 @@ Do you want to ask a question, get feedback on a project, or otherwise contact u
 If you have a sense of what you are looking for, you can use the [services explorer]({{ site.baseurl }}/docs/tools/services-explorer/) to select your needs and add any custom details. If you would like to track discussion over GitHub, we also invite you to [open an issue](https://www.github.com/{{ site.github_user }}/{{ site.github_repo }}). Otherwise,
 fill out the form below to contact us with your needs:
 
+{% include alert.html type='info' content="If you'd like to submit a proposal for our kickoff, write a few paragraphs to describe your needs, what currently exists, and timeframe. We will get back to you and schedule a time to review your proposal." %}
+
 <form action="https://formspree.io/vsochat@stanford.edu" method="POST">
   <label for="name">Your Name:
   <input class="form-input" type="text" name="name"><br>

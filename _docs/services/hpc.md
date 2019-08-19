@@ -14,6 +14,11 @@ or another local resource, RSE Services can help to:
  - Containerize your script to make it reproducible
  - Write submission scripts to optimally run your jobs
 
+## Examples
+
+ - **Memory management:** If you are interacting with large files and running into memory issues, we can help to optimize your code and runtime strategy.
+ - **Job submission:** If you have a script that needs to be run on one of our clusters, we can help to develop and run it.
+
 Additionally, we can provide details about the execution of the jobs that
 you can include in a methods section or similar.
 

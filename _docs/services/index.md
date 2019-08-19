@@ -11,7 +11,7 @@ version of the below? You can also use our [services explorer]({{ site.url }}/{{
 ## General
 
  - [Software](software) including development of code, packages, testing, continuous integration, and containerization.
- - [High Performance Computing](hpc) including scaling an algorithm to run on HPC and/or cloud services
+ - [High Performance Computing](hpc) including scaling an algorithm to run on HPC and/or cloud services, and optimizing resource usage.
  - [Maintenance](maintenance) of code respositories including responding to issues and requests for the continued lifecycle of the software.
 
 ## Domain Specific
@@ -22,7 +22,9 @@ or school would like a research software engineer but aren't sure how we can hel
  1. **Support scientific packages**: to identify scripts that need optimization or other improvement. For example, a set of Matlab scripts might be more accessible for the community if converted to a Python package or extension.
  2. **Extend useful code**: for existing libraries that could use regular maintenance. It's common for a package to come out and be widely used, but then not get proper attention if the author cannot allocate the time.
  3. **Optimize Runtime** If your lab has existing pipelines that might be better optimized to run on HPC, we can help.
+ 4. **Make it work** If your lab has code that just isn't working (e.g., Tensorflow), you can call us in to triage.
 
+<hr>
 
 {% include alert.html title="Contribute to the publication domain" content="For all of these examples, the research software engineer can help contribute to the domain of published work. For example, if a Python package or extension is developed, it can be published to encourage broader use across the community." %}
 
