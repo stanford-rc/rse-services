@@ -7,6 +7,13 @@
       url: "docs/services"
     - title: Levels of Service
       url: "docs/service-levels"
+- title: "Templates"
+  url: "docs/resources"
+  children:
+    - title: Overview
+      url: "docs/resources/"
+    - title: Documentation
+      url: "docs/resources/documentation/"
 - title: "General Services"
   url: "docs/services"
   children:

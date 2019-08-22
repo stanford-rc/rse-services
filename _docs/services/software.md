@@ -53,13 +53,8 @@ we can quickly do it.
 ## Documentation
 
 Documentation is essential for the usability of your software, but it's hard! 
-Along with jekyll templates that we've developed for you to use:
-
- - [docsy-jekyll](https://vsoch.github.io/docsy-jekyll) optimized theme for documentation with several sections
- - [mkdocs-jekyll](https://vsoch.github.io/mkdocs-jekyll) a beautiful theme optimized for documentation, quizzes, etc.
- - [sb-admin-jekyll](https://vsoch.github.io/sb-admin-jekyll/) an admin theme with charts.
-
-Examples of documentation work might include:
+Along with [jekyll templates]({{ site.baseurl }}/docs/resources/documentation) that we've developed for you to use,
+we can also help you to create your documentation base. Examples of documentation work might include:
 
  - Writing documentation for install, usage, and development of existing software
  - Generating new tutorials, notebooks, or similar content for teaching

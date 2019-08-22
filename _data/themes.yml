@@ -1,0 +1,13 @@
+documentation:
+  - title: mkdocs-jekyll
+    url: https://vsoch.github.io/mkdocs-jekyll
+    image: thumbnail-mkdocs-jekyll.png
+    description: a beautiful theme optimized for documentation, quizzes, etc.
+  - title: docsy-jekyll
+    url: https://vsoch.github.io/docsy-jekyll
+    image: thumbnail-docsy-jekyll.png
+    description: optimized theme for documentation with several sections
+  - title: sb-admin-jekyll
+    url: https://vsoch.github.io/sb-admin-jekyll
+    image: thumbnail-sb-admin-jekyll.png
+    description: an admin theme with charts.
