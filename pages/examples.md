@@ -12,7 +12,7 @@ Each of these projects has a full support plan with a statement of work, and onl
 goals and links to project content are shared here.
 
 {% for project in site.examples %}
-<h2>{{ project.title }}</h2>
+<h2 id="{{ project.title | slugify }}">{{ project.title }}</h2>
 {% if project.image %}<a href="{{ site.baseurl }}{{ project.url }}"><img style="width:50%; float:right; margin-left:30px; margin-top:40px" src="{{ site.baseurl }}/assets/img/examples/{{ project.image }}"></a>{% endif %}
 {% include projects/status.html status=project.status %}<span class="badge badge-secondary">size {{ project.size }}</span>
 
