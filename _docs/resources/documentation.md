@@ -10,7 +10,7 @@ the "gh-pages" branch. To use any of these themes, just add the content there,
 and then activate GitHub pages in your repository settings.
 
 {% for theme in site.data.themes.documentation %}
-<h2>{{ theme.title | capitalize }}</h2>
+<h2 id="{{ theme.title | slugify }}">{{ theme.title }}</h2>
 <a href="{{ theme.url }}" target="_blank">
 <img width="100%" src="{{ site.baseurl }}/assets/img/themes/documentation/{{ theme.image }}">
 </a>

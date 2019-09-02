@@ -1,0 +1,1 @@
+{% if include.status == "completed" %}<span class="badge badge-success">Completed</span>{% elsif include.status == "in-progress" %}<span class="badge badge-info">In Progress</span>{% else %}<span class="badge badge-warning">{{ include.status }}</span>{% endif %}

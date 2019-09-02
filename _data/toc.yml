@@ -41,6 +41,8 @@
       url: "docs/guides"
     - title: Best Practices
       url: "docs/guides/best-practices"
+- title: "Examples"
+  url: "examples"
 - title: "About"
   url: "about"
   children:
@@ -48,5 +50,5 @@
       url: about
     - title: Contact Us
       url: request
-- title: "News"
-  url: "news"
+    - title: "News"
+      url: "news"

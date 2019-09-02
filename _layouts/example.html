@@ -1,0 +1,17 @@
+---
+layout: page
+---
+
+<h1>{{ page.title }}</h1>
+<hr>
+
+{% if page.image %}<img style="width:100%" src="{{ site.baseurl }}/assets/img/examples/{{ page.image }}">{% endif %}
+{% include projects/status.html status=page.status %}<span class="badge badge-secondary">size {{ page.size }}</span>
+
+<div style="float:right">
+{% if page.github %}<a href="{{ page.github }}" target="_blank"><button class="btn btn-secondary"><i class="fa fa-github"></i></button></a>{% endif %}
+
+{% if page.project_url %}<a href="{{ page.project_url }}" target="_blank"><button class="btn btn-primary"><i class="fa fa-link"></i></button></a>{% endif %}
+</div>
+
+{{ content }}
