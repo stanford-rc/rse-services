@@ -10,6 +10,7 @@ This is the portal for research software engineering (RSE) services from Stanfor
 Research Computing. 
 
 <a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >New Request</button></a>
+<a href="https://stanford.service-now.com/it_services?id=sc_cat_item&sys_id=5afacc71dbf14cd027a9fd741d96193b"><button class="btn btn-success btn-lg" >Stanford Request</button></a>
 
 ## How can an RSE Help?
 
