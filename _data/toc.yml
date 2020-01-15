@@ -3,10 +3,8 @@
   children:
     - title: Overview
       url: "docs/getting-started"
-    - title: Services
+    - title: Service Examples
       url: "docs/services"
-    - title: Levels of Service
-      url: "docs/service-levels"
 - title: "Templates"
   url: "docs/resources"
   children:
