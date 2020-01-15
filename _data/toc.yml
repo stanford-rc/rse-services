@@ -3,6 +3,8 @@
   children:
     - title: Overview
       url: "docs/getting-started"
+    - title: RSE Services Stanford IT Portal
+      external_url: https://uit.stanford.edu/node/27566
     - title: Service Examples
       url: "docs/services"
 - title: "Templates"
