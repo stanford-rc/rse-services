@@ -28,8 +28,8 @@ You might be interested in all the ways that we can help!
 {% include alert.html type="tip" title="Did you know that..." content="A research software engineer can do much more than work on research software. RSEs have domain knowledge, and can write manuscripts alongside software, or content for a Methods section for the work you are conducting." %}
 
 
- - [Levels of Service](docs/service-levels) that range from a quick question to a longer term committment
- - [Services](docs/services) for software reproducibility, maintenance, and scaling for high performance computing
+ - [RSE Services](https://uit.stanford.edu/node/27566) on the Stanford University IT pages
+ - [Service Examples](docs/services) for software reproducibility, maintenance, and scaling for high performance computing
 
 See the [About]({{ site.baseurl }}/about) page for more details. If you have a question or would
 like to request support, please [Open an issue]({{ site.repo }}/issues).
