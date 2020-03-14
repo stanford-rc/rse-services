@@ -11,6 +11,10 @@ documentation:
     url: https://vsoch.github.io/docsy-jekyll
     image: thumbnail-docsy-jekyll.png
     description: optimized theme for documentation with several sections
+  - title: community-template
+    url: https://rseng.github.io/community-template
+    image: thumbnail-community-template.png
+    description: a community template for your research software engineer group
   - title: sb-admin-jekyll
     url: https://vsoch.github.io/sb-admin-jekyll
     image: thumbnail-sb-admin-jekyll.png
