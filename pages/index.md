@@ -7,10 +7,12 @@ permalink: /
 # Research Software Engineering Services
 
 This is the portal for research software engineering (RSE) services from Stanford
-Research Computing. 
+Research Computing. For a general (or non-Stanford) request, you can contact us directly using
+<a href="{{ site.baseurl }}/request/">this form</a>. If you are a Stanford affiliate, then please
+find kinds of services <a href="https://uit.stanford.edu/research-software-engineering-services">here</a>.
 
 <a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >New Request</button></a>
-<a href="https://stanford.service-now.com/it_services?id=sc_cat_item&sys_id=5afacc71dbf14cd027a9fd741d96193b"><button class="btn btn-success btn-lg" >Stanford Request</button></a>
+<a href="https://uit.stanford.edu/research-software-engineering-services"><button class="btn btn-success btn-lg" >Stanford Request</button></a>
 
 ## How can an RSE Help?
 
@@ -27,8 +29,7 @@ You might be interested in all the ways that we can help!
 
 {% include alert.html type="tip" title="Did you know that..." content="A research software engineer can do much more than work on research software. RSEs have domain knowledge, and can write manuscripts alongside software, or content for a Methods section for the work you are conducting." %}
 
-
- - [RSE Services](https://uit.stanford.edu/node/27566) on the Stanford University IT pages
+ - [RSE Services](https://uit.stanford.edu/research-software-engineering-services) on the Stanford University IT pages
  - [Service Examples](docs/services) for software reproducibility, maintenance, and scaling for high performance computing
 
 See the [About]({{ site.baseurl }}/about) page for more details. If you have a question or would

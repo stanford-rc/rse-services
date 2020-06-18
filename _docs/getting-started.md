@@ -20,8 +20,7 @@ Your particular needs for software are likely to be different from others,
 along with the resources available to you. To start, we recommend
 that you look over the kind of help that we can offer,
 and contact us with your specific needs. The details of our services are
-provided on the [Stanford University IT](https://uit.stanford.edu/node/27566) page. You can also use our 
-[services explorer]({{ site.url }}{{ site.baseurl }}/docs/tools/services-explorer/)
+provided on the [Stanford University IT](https://uit.stanford.edu/research-software-engineering-services) page. You can also use our [services explorer]({{ site.url }}{{ site.baseurl }}/docs/tools/services-explorer/)
 to easily send a message alongside the support that you are looking for.
 
 <a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >Contact Us</button></a>
@@ -54,7 +53,7 @@ community to attract interest.
 <a target="_blank" href="{{ site.url }}{{ site.baseurl }}/assets/img/rse-services-blueprint.png">
 <img src="{{ site.url }}{{ site.baseurl }}/assets/img/rse-services-blueprint.png"></a>
 
-Want to learn more? Check out [RSE Services](https://uit.stanford.edu/node/27566) 
+Want to learn more? Check out [RSE Services](https://uit.stanford.edu/research-software-engineering-services) 
 on the Stanford University IT site.
 
 ## Services
@@ -65,7 +64,7 @@ The following services are available to you!
  - [High Performance Computing](services/hpc) including scaling an algorithm to run on HPC and/or cloud services
  - [Maintenance](services/maintenance) of code respositories including responding to issues and requests for the continued lifecycle of the software.
 
-You can read the above pages for more detail, and learn about levels of service [here](https://uit.stanford.edu/node/27566).
+You can read the above pages for more detail, and learn about levels of service [here](https://uit.stanford.edu/research-software-engineering-services).
 
 ## Best Practices
 
