@@ -15,6 +15,10 @@ documentation:
     url: https://rseng.github.io/community-template
     image: thumbnail-community-template.png
     description: a community template for your research software engineer group
+  - title: RedDocs Jekyll
+    url: https://researchapps.github.io/red-docs-jekyll/
+    image: thumbnail-red-docs.png
+    description: A documentation site with a more formal portal
   - title: sb-admin-jekyll
     url: https://vsoch.github.io/sb-admin-jekyll
     image: thumbnail-sb-admin-jekyll.png
