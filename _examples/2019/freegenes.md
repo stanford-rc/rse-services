@@ -6,7 +6,7 @@ github: https://www.github.com/vsoch/freegenes
 project_url: https://vsoch.github.io/freegenes
 categories: [web, api]
 description: This is a larger project to implement order and lab management services for open source genomics. The project includes development of front-end and back-end views, an API, efficient query, containers, documentation, and cloud deployment.
-status: in-progress
+status: completed
 size: large
 badges:
  - type: info
