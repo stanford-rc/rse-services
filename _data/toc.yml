@@ -14,6 +14,8 @@
       url: "docs/resources/"
     - title: Documentation
       url: "docs/resources/documentation"
+    - title: GitHub actions
+      url: "docs/resources/github-actions"
 - title: "General Services"
   url: "docs/services"
   children:

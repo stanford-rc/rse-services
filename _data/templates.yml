@@ -1,0 +1,9 @@
+github-actions:
+  - title: PDF Generator
+    url: https://github.com/rseng/pdf-generator
+    image: pdf-generator.png
+    description: Generate one or more PDFs using GitHub Actions
+  - title: Pull Request Action
+    url: https://github.com/vsoch/pull-request-action
+    description: A GitHub action to help open a pull request
+    image: pull-request-action.png
