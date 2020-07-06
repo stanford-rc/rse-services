@@ -2,7 +2,7 @@
 title: GitHub Actions
 ---
 
-# GitHUb Actions
+# GitHub Actions
 
 The following GitHub actions might be helpful to generate content or automate things
 for your GitHub repositories. If you need any help with customization or setting these
