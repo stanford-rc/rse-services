@@ -8,6 +8,8 @@ The following Google Cloud templates might be helpful to get you started to depl
 something on app engine, or run a workflow. If you need any help with customization or setting these
 up, please don't hesitate to [reach out]({{ site.baseurl }}/support)
 
+{% include alert.html title="Stanford Minimum Security Requirements?" type="warning" content="Before deploying any final application, please ensure that it meets the Stanford Minimum Security Requirements: https://uit.stanford.edu/guide/securitystandards#security-standards-applications" %}
+
 {% for action in site.data.templates.google-cloud %}
 <h2 id="{{ action.title | slugify }}">{{ action.title }}</h2>
 <a href="{{ action.url }}" target="_blank">
@@ -22,7 +24,5 @@ up, please don't hesitate to [reach out]({{ site.baseurl }}/support)
 All of these templates are open source, and available on GitHub, so if you see an issue
 or would like to request a change, you can open an issue or pull request on the 
 project board.
-
-{% include alert.html title="Would you like to request a Google Cloud template?" type="info" content="Are you looking to automate something and need help?" %}
 
 Please [let us know]({{ site.repo }}/issues/new).
