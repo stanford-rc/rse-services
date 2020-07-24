@@ -8,7 +8,7 @@ The following Google Cloud templates might be helpful to get you started to depl
 something on app engine, or run a workflow. If you need any help with customization or setting these
 up, please don't hesitate to [reach out]({{ site.baseurl }}/support)
 
-{% include alert.html title="Stanford Minimum Security Requirements?" type="warning" content="Before deploying any final application, please ensure that it meets the Stanford Minimum Security Requirements: https://uit.stanford.edu/guide/securitystandards#security-standards-applications" %}
+{% include alert.html title="Stanford Minimum Security Requirements" type="warning" content="We take security very seriously at Stanford. Make sure that your application meets the <a href='/rse-services/docs/resources/risk-classification#pancakes-templates'>Stanford Minimum Security Standards</a> before deployment." %}
 
 {% for action in site.data.templates.google-cloud %}
 <h2 id="{{ action.title | slugify }}">{{ action.title }}</h2>

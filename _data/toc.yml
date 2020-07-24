@@ -18,6 +18,8 @@
       url: "docs/resources/github-actions"
     - title: Google Cloud
       url: "docs/resources/google-cloud"
+    - title: Risk Classification
+      url: "docs/resources/risk-classification"
 - title: "General Services"
   url: "docs/services"
   children:
@@ -38,6 +40,8 @@
       url: "docs/tools/services-explorer/"
     - title: "Support Request"
       url: "support"
+    - title: Risk Classification
+      url: "docs/resources/risk-classification"
 - title: "Guides"
   url: "docs/guides"
   children:
@@ -45,6 +49,8 @@
       url: "docs/guides"
     - title: Best Practices
       url: "docs/guides/best-practices"
+    - title: Risk Classification
+      url: "docs/resources/risk-classification"
 - title: "Examples"
   url: "examples"
 - title: "About"

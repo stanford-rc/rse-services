@@ -29,6 +29,7 @@ You might be interested in all the ways that we can help!
 
 {% include alert.html type="tip" title="Did you know that..." content="A research software engineer can do much more than work on research software. RSEs have domain knowledge, and can write manuscripts alongside software, or content for a Methods section for the work you are conducting." %}
 
+ - [Templates](docs/templates) for GitHub actions, Google Cloud, and documentation that are free for you to use.
  - [RSE Services](https://uit.stanford.edu/research-software-engineering-services) on the Stanford University IT pages
  - [Service Examples](docs/services) for software reproducibility, maintenance, and scaling for high performance computing
 
