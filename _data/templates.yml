@@ -7,3 +7,9 @@ github-actions:
     url: https://github.com/vsoch/pull-request-action
     description: A GitHub action to help open a pull request
     image: pull-request-action.png
+google-cloud:
+  - title: Google Flask Stanford
+    url: https://stanford-rc.github.io/gcp-flask-stanford/
+    description: A flask template with several themes and feature for Google App Engine.
+    image: gcp-flask-stanford.png
+

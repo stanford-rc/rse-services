@@ -16,6 +16,8 @@
       url: "docs/resources/documentation"
     - title: GitHub actions
       url: "docs/resources/github-actions"
+    - title: Google Cloud
+      url: "docs/resources/google-cloud"
 - title: "General Services"
   url: "docs/services"
   children:
@@ -34,8 +36,8 @@
       url: "docs/tools/software-checklist/"
     - title: Services Explorer
       url: "docs/tools/services-explorer/"
-    - title: "Request Services"
-      url: "request"
+    - title: "Support Request"
+      url: "support"
 - title: "Guides"
   url: "docs/guides"
   children:
@@ -51,6 +53,6 @@
     - title: About RSE Services
       url: about
     - title: Contact Us
-      url: request
+      url: support
     - title: "News"
       url: "news"

@@ -3,6 +3,7 @@ layout: default
 ---
 <div class="md-content"> 
     <article class="md-content__inner md-typeset">
+    {% if page.redirect %}This page is redirecting you to <a href="{{ page.redirect }}">{{ page.redirect }}</a>.{% endif %}
     {{ content }}
     {% include toc.html %}
     {% include editable.html %}
