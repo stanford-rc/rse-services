@@ -8,11 +8,11 @@ permalink: /
 
 This is the portal for research software engineering (RSE) services from Stanford
 Research Computing. For a general (or non-Stanford) request, you can contact us directly using
-<a href="{{ site.baseurl }}/request/">this form</a>. If you are a Stanford affiliate, then please
+<a href="{{ site.baseurl }}/support/">this form</a>. If you are a Stanford affiliate, then please
 find kinds of services <a href="https://uit.stanford.edu/research-software-engineering-services">here</a>.
 
-<a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >New Request</button></a>
-<a href="https://uit.stanford.edu/research-software-engineering-services"><button class="btn btn-success btn-lg" >Stanford Request</button></a>
+<a href="{{ site.baseurl }}/support/"><button class="btn btn-success btn-lg" >Request Support</button></a>
+<a href="https://uit.stanford.edu/research-software-engineering-services"><button class="btn btn-success btn-lg">Stanford Request</button></a>
 
 ## How can an RSE Help?
 

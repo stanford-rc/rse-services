@@ -1,6 +1,6 @@
 ---
 title: Request Services
-permalink: /request/
+permalink: /support/
 ---
 
 # Request Services
