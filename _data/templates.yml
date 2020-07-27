@@ -12,4 +12,8 @@ google-cloud:
     url: https://stanford-rc.github.io/gcp-flask-stanford/
     description: A flask template with several themes and feature for Google App Engine.
     image: gcp-flask-stanford.png
+  - title: Google Django Stanford
+    url: https://stanford-rc.github.io/gcp-django-stanford/
+    description: A django template for Google App Engine.
+    image: gcp-django-stanford.png
 
