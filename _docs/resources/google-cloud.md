@@ -21,6 +21,13 @@ up, please don't hesitate to [reach out]({{ site.baseurl }}/support)
 <hr>
 {% endfor %}
 
+## Use Cases
+
+### 1. I want to deploy a shiny app
+
+If you have a [shiny app](https://shiny.rstudio.com/) that needs more than the 25 free hours on [shinyapps.io](https://www.shinyapps.io/), you might
+be interested to know that Google Cloud has a [ready-to-go template](https://console.cloud.google.com/marketplace/details/rstudio-launcher-public/rstudio-connect-enterprise-1000-users) for R and Python applications.
+
 All of these templates are open source, and available on GitHub, so if you see an issue
 or would like to request a change, you can open an issue or pull request on the 
 project board.
