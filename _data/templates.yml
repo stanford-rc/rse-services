@@ -19,4 +19,15 @@ google-cloud:
 data-collection:
   - title: Download Qualtrics Data
     url: https://github.com/stanford-rc/qualtrics-download
-    description: Instructions for manual and programmatic export of Qualtrics surveys
+    description: Manual and programmatic export of Qualtrics surveys
+  - title: Unrar an Archive
+    url: https://vsoch.github.io/lessons/unrar-python/
+    description: Extracting data from a RAR archive.
+version-control:
+  - title: Rebasing in Practical Terms
+    url: https://vsoch.github.io/lessons/git-rebase/
+    description: What does it mean to rebase? How do you do it?
+packaging:
+  - title: An Introduction to Python packages
+    url: https://vsoch.github.io/lessons/python-packaging/
+    description: Creating your first Python package
