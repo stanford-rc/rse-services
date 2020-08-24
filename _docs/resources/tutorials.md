@@ -4,7 +4,8 @@ title: Tutorials
 
 # Tutorials
 
-The following tutorials can help you with data collection. These are created on request, so if you need any help with customization or setting these
+The following tutorials can help you with data collection, version control, and packaging. 
+These are created on request, so if you need any help with customization or setting these
 up, please don't hesitate to [reach out]({{ site.baseurl }}/support)
 
 ## Data Collection
