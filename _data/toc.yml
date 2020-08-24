@@ -7,19 +7,19 @@
       external_url: https://uit.stanford.edu/research-software-engineering-services
     - title: Service Examples
       url: "docs/services"
-- title: "Templates"
+- title: "Resources"
   url: "docs/resources"
   children:
     - title: Overview
       url: "docs/resources/"
-    - title: Documentation
+    - title: Documentation Templates
       url: "docs/resources/documentation"
     - title: GitHub actions
       url: "docs/resources/github-actions"
-    - title: Google Cloud
+    - title: Google Cloud Templates
       url: "docs/resources/google-cloud"
-    - title: Risk Classification
-      url: "docs/resources/risk-classification"
+    - title: Tutorials
+      url: "docs/resources/tutorials"
 - title: "General Services"
   url: "docs/services"
   children:
@@ -42,6 +42,7 @@
       url: "support"
     - title: Risk Classification
       url: "docs/resources/risk-classification"
+
 - title: "Guides"
   url: "docs/guides"
   children:
@@ -51,6 +52,7 @@
       url: "docs/guides/best-practices"
     - title: Risk Classification
       url: "docs/resources/risk-classification"
+
 - title: "Examples"
   url: "examples"
 - title: "About"
@@ -60,5 +62,5 @@
       url: about
     - title: Contact Us
       url: support
-    - title: "News"
-      url: "news"
+    - title: News
+      url: news
