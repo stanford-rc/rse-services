@@ -24,4 +24,6 @@ goals and links to project content are shared here.
 
 {% endfor %}
 
+<br><br>
+
 If you like what you see and want some help for your own projects, please open a <a href="{{ site.baseurl }}/request/"><button class="btn btn-success btn-lg" >New Request</button></a>.
