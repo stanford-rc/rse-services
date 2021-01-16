@@ -6,6 +6,8 @@ permalink: /
 
 # Research Software Engineering Services
 
+{% include alert.html title="RSE Services Status" type="info" content="RSE Services is currently not accepting new projects! Please come back at a later time for any status updates" %}
+
 This is the portal for research software engineering (RSE) services from Stanford
 Research Computing. For a general (or non-Stanford) request, you can contact us directly using
 <a href="{{ site.baseurl }}/support/">this form</a>. If you are a Stanford affiliate, then please
